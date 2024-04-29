@@ -1,0 +1,38 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "ComicShannsMono Nerd Font Mono",
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontWeight": "bold",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "bold",
+    "editor.formatOnSave": true,
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 1,
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
+    "terminal.integrated.fontFamily": "ComicShannsMono Nerd Font Mono",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#A8FFDB",
+        "terminalCursor.foreground": "#A8FFDB",
+    },
+    "powermode.enabled": true,
+    "powermode.combo.location": "off",
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.shake.intensity": 0,
+    "workbench.colorTheme": "Cyberpunk 2021",
+    "workbench.iconTheme": "hotline-technicolor",
+    "python.terminal.activateEnvironment": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.format.semicolons": "insert",
+    "javascript.format.enable": true,
+    "eslint.format.enable": true,
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "cssPeek.supportTags": true,
+}

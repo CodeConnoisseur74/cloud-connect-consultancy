@@ -52,4 +52,11 @@
     "animations.Tabs": "Scale",
     "workbench.editor.highlightModifiedTabs": false,
     "editor.linkedEditing": true,
+    "terminal.integrated.copyOnSelection": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.editor.autoLockGroups": {
+        "vscode.audioPreview": true
+    },
 }

@@ -13,6 +13,7 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
 /* Navbar */
 .navbar {
     width: 100%;
@@ -92,3 +93,198 @@ html {
 }
 
 /* End of Navbar */
+
+/* Menu */
+.menu {
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    top: 2rem;
+    right: 4rem;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #6DCBE4;
+    transition: transform 0.3s;
+}
+
+.line-1 {
+    width: 50%;
+}
+
+.change .line-1 {
+    transform: translate(100%, 1rem) rotate(-35deg);
+    transform-origin: right;
+}
+
+.line-3 {
+    width: 50%;
+    margin-left: auto;
+}
+
+.change .line-3 {
+    transform: translateY(-1rem) rotate(35deg);
+    transform-origin: right;
+}
+
+/*End of Menu */
+
+/* banner-menu */
+.banner-menu {
+    width: 100%;
+    height: 100vh;
+    background: url(images/dark-skyline2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.banner-heading {
+    margin-bottom: 4rem;
+    height: 20rem;
+    perspective: 50rem;
+    overflow: hidden;
+}
+
+.banner-heading span {
+    font-family: "Oswald", sans-serif;
+    font-size: 12rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 8, 0.5);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+}
+
+.heading-1 {
+    animation: animateHeading 12s 3s infinite;
+}
+
+.heading-2 {
+    animation: animateHeading 12s 6s infinite;
+}
+
+.heading-3 {
+    animation: animateHeading 12s 9s infinite;
+}
+
+.heading-4 {
+    animation: animateHeading 12s 12s infinite;
+}
+
+@keyframes animateHeading {
+    0% {
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+
+    3% {
+        transform: translateZ(0);
+        opacity: 1;
+        letter-spacing: 1.5rem;
+    }
+
+    25% {
+        transform: translateZ(0);
+        opacity: 1;
+        letter-spacing: 1.5rem;
+    }
+
+    28% {
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+
+    100% {
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+}
+
+.banner-paragraph {
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    margin: 0 auto 4rem auto;
+    padding: 1rem 0;
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 8, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeAnimation 1s 1.5s forwards;
+}
+
+.banner-btn {
+    width: 30rem;
+    height: 6rem;
+    background: linear-gradient(to right, #6DCBE4, #49A3EB);
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: 0.1rem solid #16173D;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 8, 0.5);
+    text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 8, 0.4);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeAnimation 1s 2s forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-btn::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transform: skewX(-30deg);
+    transition: left 0.5s;
+}
+
+.banner-btn:hover::before {
+    left: 100%;
+}
+
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* End of banner-menu */

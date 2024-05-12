@@ -36,7 +36,7 @@
         "terminal.foreground": "#ff439e",
         "terminalCursor.foreground": "#7e4bb8",
     },
-    "glassit-linux.opacity": 90,
+    "glassit-linux.opacity": 95,
     "editor.experimentalInlineEdit.backgroundColoring": true,
     "animations.CursorAnimation": true,
     "animations.CursorAnimationOptions": {

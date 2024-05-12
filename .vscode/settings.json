@@ -48,7 +48,7 @@
     "animations.Auto-Install": true,
     "editor.cursorSurroundingLines": 5,
     "animations.Install-Method": "Apc Customize UI++",
-    "animations.Focus-Dimming-Mode": "Full Window",
+    "animations.Focus-Dimming-Mode": "None",
     "animations.Tabs": "Scale",
     "workbench.editor.highlightModifiedTabs": false,
     "editor.linkedEditing": true,

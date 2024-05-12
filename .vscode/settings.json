@@ -33,10 +33,10 @@
     "workbench.colorCustomizations": {
         "minimap.background": "#00000000",
         "scrollbar.shadow": "#00000000",
-        "terminal.foreground": "#ff439e",
+        "terminal.foreground": "#fc96ff",
         "terminalCursor.foreground": "#7e4bb8",
     },
-    "glassit-linux.opacity": 90,
+    "glassit-linux.opacity": 95,
     "editor.experimentalInlineEdit.backgroundColoring": true,
     "animations.CursorAnimation": true,
     "animations.CursorAnimationOptions": {
@@ -51,4 +51,5 @@
     "animations.Focus-Dimming-Mode": "Full Window",
     "animations.Tabs": "Scale",
     "workbench.editor.highlightModifiedTabs": false,
+    "editor.linkedEditing": true,
 }

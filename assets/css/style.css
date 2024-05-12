@@ -1,0 +1,94 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Baloo Da 2", cursive;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    /* display: flex;
+    align-items: center; */
+    top: -8rem;
+    z-index: 10;
+    padding: 3rem;
+    transition: height 0.5s;
+    animation: animateNavbar 1s 0.5s forwards;
+}
+
+@keyframes animateNavbar {
+    0% {
+        top: -8rem;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.navbar.change {
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+}
+
+.logo img {
+    height: auto;
+    /* maintain aspect ratio */
+    width: auto;
+    /* maintain aspect ratio */
+    max-width: 200px;
+    /* maximum width of the image, adjust as required */
+    max-height: 100%;
+}
+
+.nav-list {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+}
+
+.change .nav-list {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.7s 0.5s;
+}
+
+.nav-link {
+    font-family: "MADE Soulmaze", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    color: #fff;
+    margin: 2rem 0;
+    transition: color 0.4s;
+}
+
+.nav-link:hover {
+    color: #6DCBE4;
+    text-shadow: 0.5rem 0.3rem 0.3rem rgba(109, 203, 228, 1);
+}
+
+/* End of Navbar */

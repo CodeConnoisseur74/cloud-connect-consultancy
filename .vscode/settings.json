@@ -11,19 +11,15 @@
     "editor.mouseWheelZoom": true,
     "window.zoomLevel": 1,
     "terminal.integrated.mouseWheelZoom": true,
-    "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiRed",
     "terminal.integrated.fontFamily": "ComicShannsMono Nerd Font Mono",
-    "workbench.colorCustomizations": {
-        "terminal.foreground": "#A8FFDB",
-        "terminalCursor.foreground": "#A8FFDB",
-    },
     "powermode.enabled": true,
     "powermode.combo.location": "off",
     "powermode.combo.counterEnabled": "hide",
     "powermode.combo.timerEnabled": "hide",
     "powermode.shake.intensity": 0,
-    "workbench.colorTheme": "Cyberpunk 2021",
-    "workbench.iconTheme": "hotline-technicolor",
+    "workbench.colorTheme": "Sax Synth Color Theme",
+    "workbench.iconTheme": "sweet-vscode-icons",
     "python.terminal.activateEnvironment": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
@@ -34,5 +30,25 @@
     "[css]": {
         "editor.defaultFormatter": "aeschli.vscode-css-formatter"
     },
-    "cssPeek.supportTags": true,
+    "workbench.colorCustomizations": {
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000",
+        "terminal.foreground": "#ff439e",
+        "terminalCursor.foreground": "#7e4bb8",
+    },
+    "glassit-linux.opacity": 90,
+    "editor.experimentalInlineEdit.backgroundColoring": true,
+    "animations.CursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+        "Color": "#7e4bb8"
+    },
+    "editor.cursorBlinking": "smooth",
+    "animations.Custom-CSS": false,
+    "animations.Default-Duration": 500,
+    "animations.Auto-Install": true,
+    "editor.cursorSurroundingLines": 5,
+    "animations.Install-Method": "Apc Customize UI++",
+    "animations.Focus-Dimming-Mode": "Full Window",
+    "animations.Tabs": "Scale",
+    "workbench.editor.highlightModifiedTabs": false,
 }

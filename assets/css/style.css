@@ -167,7 +167,7 @@ html {
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
-    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 8, 0.5);
+    text-shadow: 0.5rem 0.3rem 0.6rem rgba(109, 203, 228, 1);
     position: absolute;
     width: 100%;
     display: flex;

@@ -38,3 +38,19 @@ video.addEventListener("timeupdate", () => {
     }
 });
 // End of Video Section
+
+// Card Section
+var swiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 70,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+});
+// End of Card Section

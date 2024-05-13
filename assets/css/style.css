@@ -14,6 +14,24 @@ html {
     scroll-behavior: smooth;
 }
 
+.section-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+    color: #ddd;
+    text-shadow: 0.5rem 0.3rem 0.7rem rgba(109, 203, 228, 1);
+    margin-right: 4rem;
+    font-weight: normal;
+}
+
+.section-heading-line {
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #ddd;
+}
+
+/* End of Common Styles */
+
 /* Navbar */
 .navbar {
     width: 100%;
@@ -136,11 +154,11 @@ html {
 
 /*End of Menu */
 
-/* banner-menu */
+/* banner Menu */
 .banner-menu {
     width: 100%;
     height: 100vh;
-    background: url(images/dark-skyline2.jpg) no-repeat center center;
+    background: url(/assets/images/dark-skyline.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -287,4 +305,109 @@ html {
     }
 }
 
-/* End of banner-menu */
+/* End of Banner Menu */
+
+/* Video Section */
+.video-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #202222;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+    position: relative;
+}
+
+.video-wrapper {
+    width: 100rem;
+    height: 50rem;
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    box-shadow: 1rem 1rem 1rem rgba(109, 203, 228, 1);
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.controls {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(109, 203, 228, 1);
+    transform: translateY(calc(100% - 0.4rem));
+    transition: transform 0.4s;
+}
+
+.video-wrapper:hover .controls {
+    transform: translateY(0);
+}
+
+.video-bar-wrapper {
+    width: 100%;
+    height: 0.7rem;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-bar {
+    height: 100%;
+    width: 0;
+    background-color: #684CBE;
+    transition: width 0.2s linear;
+}
+
+.buttons {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons i {
+    font-size: 2.8rem;
+    color: #fff;
+}
+
+.video-section-paragraph {
+    width: 100rem;
+    position: absolute;
+    bottom: 8rem;
+    right: 15rem;
+    font-size: 2rem;
+    color: #dddddd;
+    border-top: 0.3rem double #aaa;
+    border-bottom: 0.3rem double #aaa;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-shadow: 0.5rem 0.3rem 0.3rem rgba(109, 203, 228, 1);
+    line-height: 1.5;
+}
+
+.fa-quote-left {
+    align-self: flex-start;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.fa-quote-right {
+    align-self: flex-end;
+    font-size: 5rem;
+}
+
+/* End of Video Section */

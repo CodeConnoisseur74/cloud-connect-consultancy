@@ -578,3 +578,172 @@ html {
 }
 
 /* End of Card Section*/
+
+/* Contact Section */
+.contact-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #171718;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.contact-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.contact-details div {
+    width: 25rem;
+    text-align: center;
+    margin: 4rem;
+    text-shadow: 0.2rem 0.3rem 0.3rem rgba(109, 203, 228, 1);
+}
+
+.contact-details i {
+    font-size: 5rem;
+    color: #6DCBE4;
+}
+
+.contact-details h3 {
+    font-family: "MADE Soulmaze", sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: #ccc;
+}
+
+.contact-details p {
+    font-size: 1.6rem;
+    color: #aaa;
+}
+
+.contact-wrapper h1 {
+    font-size: 4rem;
+    color: #ccc;
+    text-shadow: 0.5rem 0.3rem 0.7rem rgba(109, 203, 228, 1);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form .banner-btn,
+.contact-form textarea {
+    padding: 1.5rem;
+    background-color: #444444;
+    color: #eee;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: #6DCBE4 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+    margin-bottom: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.contact-form input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+}
+
+.contact-form textarea {
+    max-width: 100%;
+    max-height: 15rem;
+    min-height: 5.5rem;
+}
+
+.contact-form textarea:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+}
+
+.contact-form input[type="submit"] {
+    background: linear-gradient(to right, #6DCBE4, #49A3EB);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #6DCBE4;
+}
+
+.msg-btnwrap {
+    text-align: center;
+}
+
+.social-account-container {
+    margin-top: 25px;
+}
+
+.social-account-container .title {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(109, 203, 228, 1);
+}
+
+.social-account-container .social-accounts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.social-account-container .social-accounts .social-button {
+    background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
+    border: 5px solid #6DCBE4;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(109, 203, 228, 1) 0px 12px 10px -8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-account-container .social-accounts .social-button .svg {
+    fill: #6DCBE4;
+    margin: auto;
+}
+
+.social-account-container .social-accounts .social-button:hover {
+    transform: scale(1.2);
+}
+
+.social-account-container .social-accounts .social-button:active {
+    transform: scale(0.9);
+}
+
+.agreement {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.agreement a {
+    text-decoration: none;
+    color: #6DCBE4;
+    font-size: 9px;
+}
+
+/* End of Contact Section */

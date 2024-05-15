@@ -605,7 +605,7 @@ html {
     width: 25rem;
     text-align: center;
     margin: 4rem;
-    text-shadow: 0.2rem 0.3rem 0.3rem rgba(109, 203, 228, 1);
+    text-shadow: 0.2rem 0.3rem 0.6rem rgba(109, 203, 228, 1);
 }
 
 .contact-details i {
@@ -747,3 +747,35 @@ html {
 }
 
 /* End of Contact Section */
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 12rem;
+    background-color: #202122;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.footer-nav a {
+    font-family: "MADE Soulmaze", sans-serif;
+    font-size: 2rem;
+    color: #ccc;
+    margin-right: 3rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #6DCBE4;
+    text-shadow: 0.5rem 0.3rem 0.3rem rgba(109, 203, 228, 1);
+}
+
+.copyright {
+    font-size: 2rem;
+    color: #ddd;
+}
+
+/* End of Footer */

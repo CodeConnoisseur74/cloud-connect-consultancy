@@ -25,24 +25,22 @@
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-        <!--copyright autoupdater-->
-        <script src="assets/js/copyright.js" defer></script>
     </head>
     <body>
 
         <!--Navbar-->
         <nav class="navbar">
             <div class="logo">
-                <a href="#">
+                <a href="#home" aria-label="back to home">
                     <img src="assets/images/cloud-tech-logo.png"
                         alt="Cloud Tech Logo">
                 </a>
             </div>
             <div class="nav-list">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about-us" class="nav-link">About Us</a>
-                <a href="#service-card" class="nav-link">Services</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#home" class="nav-link" aria-label="back to home">Home</a>
+                <a href="#about-us" class="nav-link" aria-label="to the about us section">About Us</a>
+                <a href="#service-card" class="nav-link" aria-label="to the services section">Services</a>
+                <a href="#contact" class="nav-link" aria-label="to the contact section">Contact</a>
             </div>
         </nav>
         <!--End of Navbar-->
@@ -66,7 +64,7 @@
                         <span class="heading-4">Strategy</span>
                     </h1>
                     <p class="banner-paragraph">Always one step ahead</p>
-                    <a href="#contact"></a>
+                    <a href="#contact" aria-label="to the contact section"></a>
                     <button class="banner-btn" aria-label="connect now">connect now
                     </button>
                 </a>
@@ -111,28 +109,28 @@
                             <div class="service-card-front">
                             </div>
                             <div class="service-card-back back-free">
-                                <a href="#">Cloud Services</a>
+                                <a href="#services" aria-label="to the services section">Cloud Services</a>
                             </div>
                         </div>
                         <div class="service-card swiper-slide">
                             <div class="service-card-front">
                             </div>
                             <div class="service-card-back back-basic">
-                                <a href="#">Consultancy</a>
+                                <a href="#services" aria-label="to the services section">Consultancy</a>
                             </div>
                         </div>
                         <div class="service-card swiper-slide">
                             <div class="service-card-front">
                             </div>
                             <div class="service-card-back back-standard">
-                                <a href="#">Security</a>
+                                <a href="#services" aria-label="to the services section">Security</a>
                             </div>
                         </div>
                         <div class="service-card swiper-slide">
                             <div class="service-card-front">
                             </div>
                             <div class="service-card-back back-premium">
-                                <a href="#">Order Now</a>
+                                <a href="#services" aria-label="to the services section">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -216,11 +214,13 @@
             <!-- Footer -->
             <footer class="footer">
                 <div class="footer-nav">
-                    <a href="#home">Home</a>
-                    <a href="#about-us">About Us</a>
-                    <a href="#service-card">Services</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#home" class="nav-link" aria-label="back to home">Home</a>
+                    <a href="#about-us" class="nav-link" aria-label="to the about us section">About Us</a>
+                    <a href="#service-card" class="nav-link" aria-label="to the services section">Services</a>
+                    <a href="#contact" class="nav-link" aria-label="to the contact section">Contact</a>
                 </div>
+                <!--copyright autoupdater-->
+                <script src="assets/js/copyright.js" defer></script>
                 <p class="copyright">©2022
                     <span id="autodate"></span> Copyright
                     Cloud Connect Consultancy All Rights Reserved</p>

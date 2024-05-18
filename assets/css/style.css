@@ -434,7 +434,7 @@ html {
     height: 45rem !important;
     background-color: #181b1d;
     border-radius: 1rem;
-    box-shadow: 2rem 2rem 6rem rgba(22, 23, 61, );
+    box-shadow: 1rem 1rem 1rem rgba(109, 203, 228, 1);
 }
 
 .service-card-front {
@@ -552,7 +552,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
     border-radius: 1rem;
 }
 
@@ -576,7 +576,7 @@ html {
     font-size: 2.5rem;
     color: #fff;
     font-weight: bolder;
-    text-shadow: 2px 3px 1px black;
+    text-shadow: 2px 3px 3px black;
 }
 
 /* End of Card Section*/

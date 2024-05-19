@@ -38,8 +38,6 @@ html {
     height: 10rem;
     background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
-    /* display: flex;
-    align-items: center; */
     top: -8rem;
     z-index: 10;
     padding: 3rem;
@@ -152,7 +150,7 @@ html {
     transform-origin: right;
 }
 
-/*End of Menu */
+/* End of Menu */
 
 /* banner Menu */
 .banner-menu {
@@ -883,15 +881,18 @@ html {
     }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .video-section-paragraph {
-        width: 60rem;
-        bottom: 40rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70rem;
+        bottom: 20rem;
         line-height: 1;
         border-top: 0.3rem double #aaa;
         border-bottom: 0.3rem double #aaa;
     }
 }
+
 
 @media (max-width: 900px) {
     html {
@@ -922,8 +923,6 @@ html {
         width: 60rem;
         bottom: 20rem;
         line-height: 2;
-        border-top: -10rem;
-        border-bottom: -10rem;
     }
 
     .footer {
@@ -942,6 +941,14 @@ html {
 
     .video-section {
         height: 75vh;
+    }
+
+    .video-section-paragraph {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60rem;
+        bottom: 15rem;
+        line-height: 2;
     }
 
     .contact-details div {
@@ -965,11 +972,11 @@ html {
     }
 
     .video-section-paragraph {
+        left: 50%;
+        transform: translateX(-50%);
         width: 60rem;
-        bottom: 10rem;
+        bottom: 15rem;
         line-height: 2;
-        border-top: -10rem;
-        border-bottom: -10rem;
     }
 }
 
@@ -1034,6 +1041,10 @@ html {
 
     .video-section-paragraph {
         width: 60rem;
+        bottom: 15rem;
+        line-height: 1;
+        border-top: 0rem;
+        border-bottom: 0rem;
     }
 
     .contact-details div {
@@ -1074,22 +1085,4 @@ html {
         border-top: 0rem;
         border-bottom: 1rem;
     }
-
-    .fa-quote-left {
-        align-self: flex-start;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .fa-quote-right {
-        align-self: flex-end;
-        font-size: 1rem;
-        margin-top: 1rem;
-    }
-}
-
-/* Apple IOS Devices */
-
-@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-    
 }

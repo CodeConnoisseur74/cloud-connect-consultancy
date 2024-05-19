@@ -6,7 +6,7 @@
     outline: none;
     text-decoration: none;
     list-style-type: none;
-    font-family:  "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -1087,5 +1087,22 @@ html {
         margin-top: 1rem;
     }
 }
+
+/* iPhone 14 */
+@media only screen and (width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .video-section-paragraph {
+        width: 60rem;
+        bottom: 15rem;
+        line-height: 1;
+        border-top: 0rem;
+        border-bottom: 0rem;
+    }
+}
+
+/*iPhone 14 Pro*/
+/* @media only screen and (width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) {} */
+
+/*iPhone 14 Pro Max*/
+/* @media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {} */
 
 /* End of Responsive */

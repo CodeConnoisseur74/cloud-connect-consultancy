@@ -1,27 +1,29 @@
-Readme.md 
+# **WORLD WEATHER**
 
-# **CLOUD CONNECT CONSULTANCY**
+![Live Project Mockup](assets/images/am-i-responsive-updated.png)
 
-![Live Project Mockup](assets/images/responsive-home.png)
-
-[Link to Live Project](https://codeconnoisseur74.github.io/#/)
+[Link to Live Project](https://codeconnoisseur74.github.io/world-weather-p2/)
 
 ## Table of Contents
-- [**CLOUD CONNECT CONSULTANCY**](#cloud-connect-consultancy)
+- [**WORLD WEATHER**](#world-weather)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+  - [Updates](#updates)
   - [UX](#ux)
     - [User Stories](#user-stories)
   - [Features](#features)
-    - [Existing Features](#existing-features)
-  - [Navigation Bar](#navigation-bar)
-      - [Navigation Bar Dropdown](#navigation-bar-dropdown)
-      - [Home Page Layout](#home-page-layout)
+    - [Current Weather Data](#current-weather-data)
+      - [Random image of current city](#random-image-of-current-city)
+      - [Current Weather Data](#current-weather-data-1)
+    - [Performance](#performance)
+    - [Security](#security)
     - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies Used](#technologies-used)
+    - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-  - [Validator Testing](#validator-testing)
+  - [Testing](#testing)
+    - [W3S Jigsaw CSS Validator](#w3s-jigsaw-css-validator)
+    - [JSHint Validation](#jshint-validation)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
     - [Forking the GitHub Repository](#forking-the-github-repository)
@@ -33,69 +35,116 @@ Readme.md
     - [Other](#other)
 
 ## Introduction
+World Weather is a weather website where the user can search for the current weather by city. The background image correspods with a random image of that city is fetched from unsplash.com. Current weather information includes: temprature in celcius, cloud status, humidity and windspeed. This weather data is fetched from openweatherapp.org. The site allows the user to quickly access current weather information of any major city worldwide whilst a corresponding image is provided to the user in realtime. The site is responsive to any size desktop, tablet or smartphone device.
 
-Description of project and purpose.  
+## Updates
 
+* Fixed responsiveness in CSS with adding: background-size: cover;
+  background-position: center, center; to the body element in styles.css.
+
+* Fixed Favicon error by utilizing ![favicon.io](![Weather Home Page Search Results](assets/images/weather-home-london.png))
+
+* Fixed links opening up into new windows by removing the lines rel='noopener noreferrer" target="_blank" from index.html.
+
+* Git commits were too few and not detailed in the description. The updated version has well written commits that are more detailed and easier to follow.
+
+* Comments are added to styles.css
+
+[The live project can be found here.](https://codeconnoisseur74.github.io/world-weather-p2/)
 ## UX
 
 ### User Stories
 
-| ID  | As a...                      | I Want To Be Able To...                                  | So That I Can...                                 |
-| --- | ---------------------------- | -------------------------------------------------------- | ------------------------------------------------ |
-| 01  | As a user,                   | I want to easily navigate the website,                   | so my time isn't wasted.                         |
-| 02  | As a young user              | I want to quickly understand what the site is all about, | so that I can decide if it is of interest to me. |
-| 03  | As a user, | I want to ensure that the site is esthetically pleasing  | quick access to any newsletter info.             |
+| ID  | As a...        | I Want To Be Able To...                                            | So That I Can...                                                                                              |
+| --- | -------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| 01  | As a traveler  | quick access to weather in major cities                            | can quickly receive up to date weather forecasts for quick and easy travel planning.                          |
+| 02  | young user     | access quick weather info                                          | enjoying the random images that appear in realtime for major cities around the world I hope to visit one day. |
+| 03  | office manager | using the website on the plasma screen in the lounge of the office | esthetically pleasing image of local city with current weather conditions                                     |
 
 ## Features
 
-### Existing Features
-## Navigation Bar
-* Located concisely at the top of every page
-* The user can easily navigate to different sections of the site with ease
-* This feature solves user story 1 
-![Navigation Bar](assets/images/#)] 
-#### Navigation Bar Dropdown
+### Current Weather Data
+* User can search for current weather in any major city in the world.
+* Weather data includes:  temprature in celcius, cloud status, humidity and windspeed.
 
-* Dropdown Menu located within the Navigation Bar at the top of the page for easy access
-* Navigation Bar fits responsively to tablet and mobile screens. 
-* This solves user stories 1 and 3
 
-![Navigation Dropdown Menu](assets/images/#)
-#### Home Page Layout
+#### Random image of current city
 
-* Minimalistic layout for ease of use
-* User can easily read short tidbits of information regarding each section and can click on them to be taken to additional information
-* This solves Stories 1, 2 and 3. 
+* the city that is searched, will bring up a random image from unsplash. com along with the weather information corresponding with the city choice.
 
-![Home Page Layout](assets/images/#)
+![Weather Home Page Search Results](assets/images/weather-home-london.png)
+
+#### Current Weather Data
+
+* Current weather data is displayed showing: tempraturein celcius, cloud status, windspeed and humidity.
+* Weather Data is current and a quick refresh of the browser updates the weather data for chosen city through the search option.
+
+![Weather Home Page Search Results](assets/images/weather-home.png)
+
+### Performance
+
+Testing performace using Lighthouse within Google Chrome Developer Tools was not implimented in the previos version of the website.
+
+The first Lighthouse test was performed using the local host:
+
+![Lighthouse local host](assets/images/lighthouse-performance-100.png)
+
+The second Lighthouse test was performed using the deloyed website:
+
+![Lighthouse local host](assets/images/lighthouse-performance-responsive.png)
+
+### Security
+
+The security of the website was tested using the security section of Google Chrome Developer tools:
+
+![Lighthouse local host](assets/images/security.png)
 
 ### Features Left to Implement
 
-* Expand the website to include additional information and sections
-* Include a more extensive ...
+* The feature to automatically refresh weather data for selected city so the user does not have to manually refresh the browser in order to update the current weather data.
 
-## Technologies Used
+### Technologies Used
 
 ### Languages Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-* [Adobe Fonts](https://www.adobe.com/products/catalog.html)
-* [Favicon](https://favicon.io/)
-* [Fontawesome](https://fontawesome.com/)
-
-
-## Validator Testing
-[HTML W3S Validator](https://validator.w3.org/)
-* One error showing on line 37, column 71 regarding a duplicate class attribute that has since been deleted and fixed. 
-* Upon retesting the HTML, no errors showing, only a warning stating the section in HTML on line 53, columns 5 and 29 should have a heading.
-
-[CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
-* 15 ospecified errors showed. This is a known bug confirmed by Stackoverflow. Explanation: CSS3 is evolving much faster than the CSS Jigsaw Validator can keep up with currently. All errors are confirmed to be non-issues.
-![Stackoverflow Discussion Board Screenshot](assets/images/stackoverflow-error.jpg.png)
-
+* [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) has been used to assist with the styling of the site and particularly the responsiveness.
+* [Node.js](https://nodejs.org/en/) has been used to assist JavaScript with implimentation of the website capabilities to fetch and recieve weather data and corresponding images on the website.
+* [OpenWeatherMap](https://openweathermap.org/guide) has been used to create the API Access Key and API in order to fetch current weather data.
+* [Unsplash](https://unsplash.com/documentation#list-collections) has been used to provide the Corresponding City images for the website.
+* [The W3C Markup Validator](https://validator.w3.org/#validate_by_input) has been used to validate the html code.
+* [The W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS code.
 * [JShint](https://jshint.com/) has been used to validate the JavaScript code.
+
+## Testing
+
+The W3C Markup Validator showed no errors when validating the html code.
+
+![W3S HTML Validation](assets/images/html-validate.png)
+
+Update: Upon updating the index.html, the W3C Markup Validator indicated trailing slash errors and a missing attribute in the link element:
+
+![W3S HTML Validation](assets/images/wc3-html-errors.png)
+
+The following resource assisted in solving these issues:
+
+A link element with a "rel" attribute that contains the value "preload"must have an "as" attribute.[Rocket Validator](https://rocketvalidator.com/html-validation/a-link-element-with-a-rel-attribute-that-contains-the-value-preload-must-have-an-as-attribute)
+
+### W3S Jigsaw CSS Validator
+
+The W3S Jigsaw CSS Validator showed no errors when validating the CSS code:
+
+![W3S Jigsaw CSS Validation](assets/images/wc3-validator.png)
+
+### JSHint Validation
+
+The jsHint validator initially showed over 12 warnings regarding the validity of the JavaScript code. This was a known issue regarding the "ES6 version" in VScode. Updating the settings.JSON file in VS code rectified this.
+
+![JSHint Validation](assets/images/js-validate.png)
+
+The JSHint then showed no errors when validating the JavaScript code.
 
 ## Deployment
 
@@ -127,29 +176,27 @@ The following steps can be used to clone the GitHub repository:
 * Press 'Enter' to create the clone.
 
 ## Credits
-* Explanation[Wikipedia](https://www.wikipedia.org/)
-* Fonts taken from [Adobe Fonts](https://www.adobe.com/products/catalog.html)
-* Icons taken from [Fontawesome](https://fontawesome.com/)
-* explanation [Canva](https://www.canva.com/)
 
+* R3HAB MEDIA youtube video on fixing the JS hint issue regarding the settings.JSON file.[YouTube](https://www.youtube.com/watch?v=QDzeU1FUZRk)
+
+* JSHint ES6 errors fix.[How do I resolve these JSHINT ES6 errors](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000112510-How-do-I-resolve-these-JSHint-ES6-errors)
+
+*  A link element with a "rel" attribute that contains the value "preload"must have an "as" attribute.[Rocket Validator](https://rocketvalidator.com/html-validation/a-link-element-with-a-rel-attribute-that-contains-the-value-preload-must-have-an-as-attribute)
+
+* Adding Google Fonts API.[Get Started with the Google Fonts APII](https://developers.google.com/fonts/docs/getting_started)
 
 ### Code
-
-* Credit and articles etc that we have copied code from
+* [10 JavaScript project Ideas for beginners](https://www.makeuseof.com/javascript-beginner-project-ideas/)
 
 ### Content
-* Credit fonts and font awesome icons etc
-* Credit and sites we have taken information from
-*  explanation [uiverse.io](https://uiverse.io/)
-*  explanation [W3C Design System](https://design-system.w3.org/)
-*  explanation [Taskade](https://www.taskade.com/)
-*  explanation [Toptal-gitignore.io](https://www.toptal.com/developers/gitignore)
+* [GStatic](https://fonts.gstatic.com) Icons and Font Styles.
+* [Google Fonts](https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap) DM Serif Display
 
 ### Media
-* Credit images used
+* [Unsplash](https://unsplash.com/documentation#list-collections) Screen Images, API and Access Key for fetching images that correspond with the User input of City search.
+
+* [favicon](https://favicon.io/) Favicon generator.
 
 ### Other
 
-* The Code Institute [Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to make the repository on Github.
-* All photos were created and edited with [Canva](https://www.canva.com)
-* The Mockup of the website in the README.md was created using [Am I Responsive?](https://ui.dev/amiresponsive)
+* [Ami I Responsive?](https://ui.dev/amiresponsive) Testing the Responsive design of the Website.

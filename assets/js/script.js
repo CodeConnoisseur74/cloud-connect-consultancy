@@ -1,14 +1,25 @@
 // Navbar
 const menu = document.querySelector(".menu");
 const navbar = document.querySelector(".navbar");
+// Get all nav-links
+const navLinks = document.querySelectorAll('.nav-link');
 
 menu.addEventListener("click", () => {
     navbar.classList.toggle("change");
     menu.classList.toggle("change");
 });
+
+// Add event listener to close the navigation menu when a nav-link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        // Reset the navigation menu to its initial state by removing the 'change' class
+        navbar.classList.remove('change');
+        menu.classList.remove('change');
+    });
+});
 // End of Navbar
 
-// Connect Now Button 
+// Connect Now Button
 document.querySelector('.banner-btn').addEventListener('click', function () {
     window.location.href = '#contact';
 });

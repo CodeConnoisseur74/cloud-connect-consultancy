@@ -20,7 +20,6 @@
     "powermode.shake.intensity": 0,
     "workbench.colorTheme": "Sax Synth Color Theme",
     "workbench.iconTheme": "sweet-vscode-icons",
-    "python.terminal.activateEnvironment": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
@@ -29,6 +28,9 @@
     "eslint.format.enable": true,
     "[css]": {
         "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format"
     },
     "workbench.colorCustomizations": {
         "minimap.background": "#00000000",
@@ -59,4 +61,7 @@
     "workbench.editor.autoLockGroups": {
         "vscode.audioPreview": true
     },
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": null,
 }

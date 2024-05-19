@@ -1056,7 +1056,7 @@ html {
     }
 }
 
-@media (max-width: 375px) and (max-height: 700px) {
+@media (min-width: 375px) and (max-height: 700px) {
     .video-section-paragraph {
         width: 60rem;
         bottom: 5rem;

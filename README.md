@@ -36,9 +36,10 @@
     - [Other](#other)
 
 ## Introduction
-World Weather is a weather website where the user can search for the current weather by city. The background image correspods with a random image of that city is fetched from unsplash.com. Current weather information includes: temprature in celcius, cloud status, humidity and windspeed. This weather data is fetched from openweatherapp.org. The site allows the user to quickly access current weather information of any major city worldwide whilst a corresponding image is provided to the user in realtime. The site is responsive to any size desktop, tablet or smartphone device.
+Cloud Connect Consultancy is a fictitious Consultancy Company that offers Cloud Computing, strategy and security services to small and medium sized businesses. The website includes brief descriptions on the company, the services they provide and contact information. A Contact form is also located at the bottom of the website with a "Connect Now" button near the top of the website.
 
 [The live project can be found here.](https://codeconnoisseur74.github.io/cloud-connect-consultancy/)
+
 ## UX
 
 ### User Stories

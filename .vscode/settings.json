@@ -18,7 +18,7 @@
     "powermode.combo.counterEnabled": "hide",
     "powermode.combo.timerEnabled": "hide",
     "powermode.shake.intensity": 0,
-    "workbench.colorTheme": "Sax Synth Color Theme",
+    "workbench.colorTheme": "Cybervision",
     "workbench.iconTheme": "sweet-vscode-icons",
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"

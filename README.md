@@ -1,11 +1,11 @@
-# **WORLD WEATHER**
+# **CLOUD CONNECT CONSULTANCY**
 
-![Live Project Mockup](assets/images/am-i-responsive-updated.png)
+![Live Project Mockup](assets/images/amiresponsive.png)
 
-[Link to Live Project](https://codeconnoisseur74.github.io/world-weather-p2/)
+[Link to Live Project](https://codeconnoisseur74.github.io/cloud-connect-consultancy/)
 
 ## Table of Contents
-- [**WORLD WEATHER**](#world-weather)
+- [**CLOUD CONNECT CONSULTANCY**](#cloud-connect-consultancy)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Updates](#updates)
